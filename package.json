@@ -1,7 +1,7 @@
 {
   "name": "rentalx",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/server.js",
   "license": "MIT",
   "author": {
     "name": "Matheus Santos",
@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "start": "node .",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --no-notify --respawn src/server.ts"
   },
   "dependencies": {
